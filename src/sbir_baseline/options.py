@@ -9,7 +9,7 @@ parser.add_argument('--exp_name', type=str, default='default', help='set experim
 # ----------------------------
 
 # For Our Dataset:
-parser.add_argument('--root_dir', type=str, default='/vol/research/sketchcaption/phd2/dataset_paper/scene-sketch-text/data',
+parser.add_argument('--root_dir', type=str, default='./../../fscoco',
 	help='Enter root directory of OurScene Dataset')
 
 # For SketchyScene Dataset:
